@@ -1,1 +1,1 @@
-# journal
+# Journal Webpage
