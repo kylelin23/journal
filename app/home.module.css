@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    background-color: #e0b4d7;
+    justify-content: center;
+    flex: 1;
+    padding-top: 50;
+}
+
+.title {
+    font-size: 50;
+}
