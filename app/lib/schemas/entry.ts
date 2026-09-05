@@ -5,14 +5,6 @@ const entrySchema = new mongoose.Schema({
     date: Date,
 });
 
-const Entry = mongoose.model('Entry', entrySchema);
-
-const testEntry = new Entry({
-    name: 'Test Entry',
-    content: 'Hopefully this shows up! ',
-    date: new Date("<2026-09-03>"),
-})
-
-testEntry.save();
+const Entry = mongoose.models.Entry || mongoose.model('Entry', entrySchema);
 
 export default Entry;

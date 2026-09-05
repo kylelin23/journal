@@ -1,11 +1,22 @@
 .container {
     display: flex;
     background-color: #e0b4d7;
-    justify-content: center;
+    align-items: center;
     flex: 1;
     padding-top: 50;
+    flex-direction: column;
 }
 
 .title {
     font-size: 50;
+}
+
+.journalEntries {
+    display: flex;
+    flex-direction: column;
+}
+
+.journalNameInput {
+    background-color: white;
+    width: 350;
 }
